@@ -1,0 +1,22 @@
+Analysis timestamp (UTC): 2026-01-03T21:05:01.811228
+Problem statement: IIT Guwahati Winter Consulting — Case 1. :contentReference[oaicite:2]{index=2}
+
+Total routes analyzed: 343
+Routes loss-making (base): 343
+Routes loss-making (post fuel shock +25%): 343
+Routes that UDAN support (₹50000/month) can save (flip to non-loss): 0
+Routes still loss-making even with UDAN: 343
+
+Avg margin per flight (base): -131,456 INR
+Avg margin per flight (post-shock): -149,420 INR
+Avg margin per flight (with UDAN): -148,587 INR
+
+Key assumptions:
+ - Latest ATF used: 41.35 INR/L (derived from atf_time_series).
+ - Seats/load factor: 78/0.72
+ - Fixed cost per flight: ₹250000
+ - UDAN monthly support assumed: ₹50000 (→ ₹833/flight at 60 flights/mo)
+
+Recommendation (from analysis):
+ - Use UDAN selectively to stabilize socially-important, high-volatility regional routes (Option B as buffer).
+ - Primary action remains network optimization & selective pricing on core routes (Option A) — UDAN supports downside protection.
